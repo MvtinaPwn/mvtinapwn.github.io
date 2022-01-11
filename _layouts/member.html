@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="section">
+        <ul>
+            {% for member in site.data.members %}
+                {{ member.name }}
+              <li>
+                <a href="https://github.com/{{ member.github }}">
+                  
+                  {{ member.github }}
+                </a>
+              </li>
+            {% endfor %}
+            </ul>
+    </div>
+</div>
+<script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
