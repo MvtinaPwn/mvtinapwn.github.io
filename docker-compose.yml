@@ -4,7 +4,7 @@ services:
   web:
     image: jekyll/jekyll
     entrypoint: jekyll
-    command: "serve"
+    command: "serve --drafts"
     ports:
      - "4000:4000"
     volumes:
