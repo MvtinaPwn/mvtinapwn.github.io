@@ -1,1 +1,10 @@
-theme: jekyll-theme-cayman
+title: MvtinaPwn
+author: MvtinaPwn
+email: mvtinapwn@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  static site for mvtinapwn
+
+github_username:  MvtinaPwn
+
+sass:
+    style: compressed
