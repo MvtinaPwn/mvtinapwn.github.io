@@ -2,13 +2,15 @@
   github: The-BFG
   github-id: 22843018
   htb: https://app.hackthebox.com/profile/16903
-  description:
+  site:
+  description: Dott. in Scienze Informatiche<br>Security Analyst presso Alten Italia
   active: true
 
 - name: Eduard Rubio Cholbi
   github: Umuril
   github-id: 3881068
   htb: https://app.hackthebox.com/users/14241
+  site:
   description:
   active: true
 
@@ -16,6 +18,7 @@
   github: Nervaccio
   github-id: 2902424
   htb: https://app.hackthebox.com/users/14207
+  site: https://colasante.io/about
   description:
   active: true
 
@@ -23,6 +26,7 @@
   github: MicheleMosca
   github-id: 48366512
   htb: https://app.hackthebox.com/users/82714
+  site:
   description:
   active: true
 
@@ -30,6 +34,7 @@
   github: oinegue
   github-id: 3747027
   htb: https://app.hackthebox.com/users/97708
+  site:
   description:
   active: true
 
@@ -37,5 +42,6 @@
   github: frafra800
   github-id: 12039083
   htb: https://app.hackthebox.com/users/17308
+  site:
   description:
   active: true
