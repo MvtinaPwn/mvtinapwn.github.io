@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container">
     <div class="section">
-        <h1 class="header center">{{ page.title }}</h1>
+        <h1 class="header center page-title</h1>">{{ page.title }}</h1>
             <div class="row">
             {% for member in site.data.members %}
                     <div class="col s12 m6 l4 xl3">
@@ -20,8 +20,7 @@ layout: default
                             <!--<div class="card-reveal" style="display: none; transform: translateY(0%);">
                                 <span class="card-title grey-text text-darken-4">{{ member.description }}<i class="material-icons right">close</i></span>
                                 <p>{{ member.description }}</p>
-                            </div>
-                            -->
+                            </div>-->
             
                             <div class="card-action">
                             <a href="https://github.com/{{ member.github }}" target="_blank">
