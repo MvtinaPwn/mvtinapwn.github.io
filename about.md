@@ -4,8 +4,6 @@ title: Chi Siamo
 permalink: /chi-siamo/
 ---
 
-<h1 class="page-title">{{ page.title | escape }}</h1>
-
 #### Presentazione
 
 Siamo un gruppo di appassionati di cyber security, vogliosi di apprendere sempre nuove nozioni  perchè tutto ciò che impariamo nel mondo universitario e lavorativo non ci soddisfa mai abbastanza.
