@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import "materialize/components/variables";
+
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
 }
@@ -19,7 +21,7 @@ h1.page-title {
     font-weight: 500;
     font-size: 2.3em;
     text-align: center;
-    color: #159031; //#29b6f6
+    color: $secondary-color;
 }
 .col.grid-example {
     border: 1px solid #eee;
@@ -54,7 +56,7 @@ h1.page-title {
     text-align: center;
 }
 .post-meta h1.post-title {
-    color: #159031; //#29b6f6
+    color: $secondary-color; //#29b6f6
     font-size: 2.8em;
     font-weight: 800;
 }
@@ -78,16 +80,16 @@ p.rss-subscribe {
     background-color:#6B6E70;
 }
 
-/*
+
 .light-black{
     color:#222629;
 }
-.dark-green{
-    color:#159031;
+.text-secondary-color{
+    color: $secondary-color;
 }
 .light-green-bg{
     color:#93c01f;
-}*/
+}
 
 a img{
     max-width:100%;
