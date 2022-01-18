@@ -36,8 +36,8 @@
 // ==========================================================================
 
 $primary-color: #222629 !default;
-$primary-color-light: lighten($primary-color, 15%) !default;
-$primary-color-dark: darken($primary-color, 15%) !default;
+$primary-color-light: lighten($primary-color, 5%) !default;
+$primary-color-dark: darken($primary-color, 5%) !default;
 
 $secondary-color: #159031 !default;
 $success-color: color("green", "base") !default;
@@ -314,7 +314,7 @@ $h6-fontsize: 1rem !default;
 $footer-font-color: #fff !default;
 $footer-bg-color: $primary-color !default;
 $footer-copyright-font-color: #fff !default;
-$footer-copyright-bg-color: $primary-color-light !default;
+$footer-copyright-bg-color: $primary-color-dark !default;
 
 
 // 23. Flow Text

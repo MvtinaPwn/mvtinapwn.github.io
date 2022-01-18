@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="container">
-    <div class="section">
+  <div class="section">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
@@ -13,8 +13,10 @@ layout: default
             {{ page.date | date: date_format }}
           </time>
           {% if page.author %}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-          {% endif %}</p>
+          • <span itemprop="author" itemscope itemtype="http://schema.  /Person"><span itemprop="name">{{ page.author
+              }}</span></span>
+          {% endif %}
+        </p>
       </header>
 
       <div class="post-content" itemprop="articleBody">
@@ -22,6 +24,6 @@ layout: default
       </div>
 
     </article>
-    </div>
+  </div>
 </div>
-<script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
+<script>$('.carousel.carousel-slider').carousel({ fullWidth: true });</script>
