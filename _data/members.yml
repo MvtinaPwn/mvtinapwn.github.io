@@ -61,3 +61,11 @@
   site: 
   description: 
   active: true
+
+- name: Andrea Artioli
+  github: AndreaArtioli
+  github-id: 56043789
+  htb: https://app.hackthebox.com/users/82322
+  site: 
+  description: 
+  active: true
