@@ -21,23 +21,35 @@
     <script>
       document.addEventListener('DOMContentLoaded', function () {
             var calendarEl = document.getElementById('calendar');
-            var calendar = new FullCalendar.Calendar(calendarEl, {
-                initialView: 'dayGridMonth',
-                googleCalendarApiKey: 'AIzaSyASDqqFO7yeyqiFwEYPpYuD8LZiiapQ4g8',
-                events: {
-                    googleCalendarId: 'mvtinapwn@gmail.com',
-                },
-                // aspectRatio: 1.35,
-                // height: 'auto',
-                locale: 'it',
-                eventTimeFormat: {
-                    hour: 'numeric',
-                    minute: '2-digit',
-                    meridiem: false
-                },
-                firstDay: 1,
-            });
-            calendar.render();
+            if (calendarEl != null) {
+                var calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'dayGridMonth',
+                    googleCalendarApiKey: 'AIzaSyASDqqFO7yeyqiFwEYPpYuD8LZiiapQ4g8',
+                    events: {
+                        googleCalendarId: 'mvtinapwn@gmail.com',
+                    },
+                    // aspectRatio: 1.35,
+                    // height: 'auto',
+                    locale: 'it',
+                    eventTimeFormat: {
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        meridiem: false
+                    },
+                    firstDay: 1,
+                });
+                calendar.render();
+            }
         });
     </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XXCRPDNTZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-4XXCRPDNTZ');
+    </script>
+
 </head>

@@ -27,14 +27,14 @@
   github-id: 48366512
   htb: https://app.hackthebox.com/users/82714
   site:
-  description:
+  description: Cloud and Cybersecurity Student
   active: true
 
 - name: Eugenio Nurrito
   github: oinegue
   github-id: 3747027
   htb: https://app.hackthebox.com/users/97708
-  site:
+  site: https://www.eugi.it/
   description:
   active: true
 
@@ -59,7 +59,7 @@
   github-id: 50552785
   htb: https://app.hackthebox.com/users/662789
   site: 
-  description: 
+  description: Artificial Intelligence Phd Student
   active: true
 
 - name: Andrea Artioli
