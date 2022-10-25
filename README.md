@@ -47,6 +47,7 @@ Theme palette https://visme.co/blog/website-color-schemes/
 `bundle-2.7 exec jekyll serve --trace --livereload --port 4001`
 
 ### Docker
+`dockerd`
 `docker run --rm --volume="$PWD:/srv/jekyll" --publish 4000:4000 jekyll/jekyll jekyll serve`
 
 ### Docker Compose
