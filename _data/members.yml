@@ -69,3 +69,11 @@
   site: 
   description: Cybersecurity Phd Student
   active: true
+
+- name: Edoardo Torrini
+  github: EdoardoTorrini
+  github-id: 16915539
+  htb: https://app.hackthebox.com/users/375360
+  site:
+  description: Cloud and Cybersecurity Student
+  active: true
