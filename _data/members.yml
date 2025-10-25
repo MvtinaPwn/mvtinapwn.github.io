@@ -87,10 +87,9 @@
   active: true
 
 - name: Federico Motta
-  gihub: https://github.com/TheJena
+  gihub: TheJena
   github-id: 13780636
   htb: https://app.hackthebox.com/users/1683930
   site: https://scholar.google.com/citations?user=pgXipekAAAAJ
   description: PhD student at UNIMORE
   active: true
-
