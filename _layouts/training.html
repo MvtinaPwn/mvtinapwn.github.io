@@ -2,57 +2,92 @@
 layout: default
 ---
 <div class="container" style="padding-top: 20px;">
-  <div class="row">
-    <div class="col-md-12">
-      <div class="well">
-        <h2>Piattaforme di Training per CTF 🚀</h2>
-        <p>
-          Benvenuto nella sezione di training! Qui troverai una lista di risorse e piattaforme utili per allenarti e migliorare le tue skill nelle competizioni Capture The Flag (CTF). Le piattaforme sono divise per tipologia, ideali sia per chi è alle prime armi sia per chi vuole affinare tecniche specifiche.
-        </p>
-        <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well">
+                <h2>Piattaforme di Training per CTF</h2>
+                <p>
+                    Benvenuto nella sezione di training! Qui troverai una lista di risorse e piattaforme utili per
+                    allenarti e migliorare le tue skill nelle competizioni Capture The Flag (CTF). Le piattaforme sono
+                    divise per tipologia, ideali sia per chi è alle prime armi sia per chi vuole affinare tecniche
+                    specifiche.
+                </p>
+                <hr>
 
-        <h3><strong>Jeopardy Style</strong></h3>
-        <p>
-          In questa modalità, viene presentata una serie di sfide (<i>challenge</i>) suddivise in categorie (es. Web, Reverse Engineering, Crittografia, Forensics). Ogni sfida risolta correttamente assegna un punteggio. Vince chi accumula più punti. È il formato **ideale per iniziare** e per approfondire argomenti specifici.
-        </p>
-        
-        <ul class="list-group" style="margin-top: 15px;">
-          <li class="list-group-item">
-            <h4><a href="https://overthewire.org/wargames/" target="_blank" rel="noopener noreferrer">OverTheWire</a></h4>
-            <p>Una delle piattaforme più famose per iniziare. Offre una serie di "wargames" con sfide di difficoltà crescente che coprono i fondamenti della sicurezza, del web e dello sfruttamento di binari.</p>
-          </li>
-          <li class="list-group-item">
-            <h4><a href="https://underthewire.tech/" target="_blank" rel="noopener noreferrer">UnderTheWire</a></h4>
-            <p>Simile a OverTheWire ma focalizzata sulle tecnologie Microsoft e sulla sicurezza in ambienti Windows, con un forte focus su PowerShell. Ottima per chi vuole specializzarsi su questo ecosistema.</p>
-          </li>
-          <li class="list-group-item">
-            <h4><a href="https://hackthebox.com/" target="_blank" rel="noopener noreferrer">Hack The Box</a></h4>
-            <p>Piattaforma molto popolare che offre macchine virtuali (box) da compromettere. Le sfide sono realistiche e coprono un'ampia gamma di vulnerabilità. Offre anche sfide individuali in stile Jeopardy.</p>
-          </li>
-           <li class="list-group-item">
-            <h4><a href="https://tryhackme.com/" target="_blank" rel="noopener noreferrer">TryHackMe</a></h4>
-            <p>Piattaforma gamificata e molto user-friendly, perfetta per i principianti. Offre "stanze" (<i>rooms</i>) tematiche che guidano l'utente passo dopo passo nell'apprendimento di concetti di sicurezza e nell'hacking pratico.</p>
-          </li>
-          <li class="list-group-item">
-            <h4><a href="https://ctf.hacker101.com/" target="_blank" rel="noopener noreferrer">Hacker101 CTF</a></h4>
-            <p>Creata da HackerOne e focalizzata sulle vulnerabilità web. È una risorsa eccellente per chi è interessato al bug bounty, con sfide che simulano scenari reali.</p>
-          </li>
-        </ul>
+                <h3><strong>Jeopardy Style</strong></h3>
+                <p>
+                    In questa modalità, viene presentata una serie di sfide (<i>challenge</i>) suddivise in categorie
+                    (es. Web, Reverse Engineering, Crittografia, Forensics). Ogni sfida risolta correttamente assegna un
+                    punteggio. Vince chi accumula più punti. È il formato <b>ideale per iniziare</b> e per approfondire
+                    argomenti specifici.<br>Di seguito una lista di un possibile learning path da seguire:
+                </p>
 
-        <hr>
+                <ul class="list-group" style="margin-top: 15px;">
+                    <li class="list-group-item">
+                        <p>1. <a href="https://training.olicyber.it/" target="_blank"
+                                rel="noopener noreferrer">OliCyber.IT Training</a></p>
+                        <p>Piattaforma italiana dedicata alla preparazione per le Olimpiadi di Cybersecurity. Offre
+                            materiale didattico e sfide pratiche su un'ampia gamma di argomenti, ideale per studenti e
+                            principianti.</p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>2. <a href="https://overthewire.org/wargames/" target="_blank"
+                                rel="noopener noreferrer">OverTheWire</a></p>
+                        <p>Una delle piattaforme più famose per iniziare. Offre una serie di "wargames" con sfide di
+                            difficoltà crescente che coprono i fondamenti della sicurezza, del web e dello sfruttamento
+                            di binari.</p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>3. <a href="https://hackthebox.com/" target="_blank" rel="noopener noreferrer">Hack The
+                                Box</a></p>
+                        <p>Piattaforma molto popolare che offre macchine virtuali (box) da compromettere. Le sfide sono
+                            realistiche e coprono un'ampia gamma di vulnerabilità. Offre anche sfide individuali in
+                            stile Jeopardy.</p>
+                    </li>
+                </ul>
 
-        <h3><strong>Attack-Defence</strong></h3>
-        <p>
-          In questa modalità, ogni squadra ha una propria rete di servizi vulnerabili che deve proteggere (<b>difesa</b>) e, contemporaneamente, ha il compito di attaccare i servizi delle altre squadre per rubare delle "flag" (<b>attacco</b>). È un formato molto dinamico e realistico, tipico delle competizioni più importanti.
-        </p>
-        <ul class="list-group" style="margin-top: 15px;">
-          <li class="list-group-item">
-            <h4><a href="https://ctftime.org/" target="_blank" rel="noopener noreferrer">CTFtime</a></h4>
-            <p>CTFtime non è una piattaforma di gioco, ma è **il portale di riferimento** per la comunità CTF. Aggrega tutte le competizioni future (incluse quelle Attack-Defence), pubblica i write-up delle sfide passate e mantiene una classifica mondiale dei team. È il punto di partenza per trovare e partecipare a CTF di ogni tipo.</p>
-          </li>
-        </ul>
+                <p>Extra link:</p>
+                <ul class="list-group" style="margin-top: 15px;"></ul>
+                    <li class="list-group-item">
+                        <p><a href="https://underthewire.tech/" target="_blank"
+                                rel="noopener noreferrer">UnderTheWire</a></p>
+                        <p>Simile a OverTheWire ma focalizzata sulle tecnologie Microsoft e sulla sicurezza in ambienti
+                            Windows, con un forte focus su PowerShell. Ottima per chi vuole specializzarsi su questo
+                            ecosistema.</p>
+                    </li>
+                    <li class="list-group-item">
+                        <p><a href="https://tryhackme.com/" target="_blank" rel="noopener noreferrer">TryHackMe</a></p>
+                        <p>Piattaforma gamificata e molto user-friendly, perfetta per i principianti. Offre "stanze"
+                            (<i>rooms</i>) tematiche che guidano l'utente passo dopo passo nell'apprendimento di
+                            concetti di sicurezza e nell'hacking pratico.</p>
+                    </li>
+                    <li class="list-group-item">
+                        <p><a href="https://ctf.hacker101.com/" target="_blank" rel="noopener noreferrer">Hacker101
+                                CTF</a></p>
+                        <p>Creata da HackerOne e focalizzata sulle vulnerabilità web. È una risorsa eccellente per chi è
+                            interessato al bug bounty, con sfide che simulano scenari reali.</p>
+                    </li>
+                </ul>
+                <hr>
 
-      </div>
+                <h3><strong>Attack-Defence</strong></h3>
+                <p>
+                    In questa modalità, ogni squadra ha una propria rete di servizi vulnerabili che deve proteggere
+                    (<b>difesa</b>) e, contemporaneamente, ha il compito di attaccare i servizi delle altre squadre per
+                    rubare delle "flag" (<b>attacco</b>). È un formato molto dinamico e realistico, tipico delle
+                    competizioni più importanti.
+                </p>
+                <ul class="list-group" style="margin-top: 15px;">
+                    <li class="list-group-item">
+                        <p><a href="https://ctftime.org/" target="_blank" rel="noopener noreferrer">CTFtime</a></p>
+                        <p>CTFtime non è una piattaforma di gioco, ma è <b>il portale di riferimento</b> per la comunità
+                            CTF. Aggrega tutte le competizioni future (incluse quelle Attack-Defence), pubblica i
+                            write-up delle sfide passate e mantiene una classifica mondiale dei team. È il punto di
+                            partenza per trovare e partecipare a CTF di ogni tipo.</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
     </div>
-  </div>
 </div>
