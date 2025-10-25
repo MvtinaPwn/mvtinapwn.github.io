@@ -79,7 +79,7 @@
   active: true
 
 - name: Daniele Bianchini
-  gihub: Lick1Fonzi
+  github: Lick1Fonzi
   github-id: 77489503
   htb: https://app.hackthebox.com/users/314859
   site:
@@ -87,7 +87,7 @@
   active: true
 
 - name: Federico Motta
-  gihub: TheJena
+  github: TheJena
   github-id: 13780636
   htb: https://app.hackthebox.com/users/1683930
   site: https://scholar.google.com/citations?user=pgXipekAAAAJ
