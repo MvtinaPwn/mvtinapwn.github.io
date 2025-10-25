@@ -3,7 +3,7 @@
   github-id: 22843018
   htb: https://app.hackthebox.com/profile/16903
   site:
-  description: Dott. in Scienze Informatiche<br>Security Analyst presso Alten Italia
+  description: Dott. in Scienze Informatiche<br>
   active: true
 
 - name: Eduard Rubio Cholbi
@@ -77,3 +77,20 @@
   site:
   description: Cloud and Cybersecurity Student
   active: true
+
+- name: Daniele Bianchini
+  gihub: Lick1Fonzi
+  github-id: 77489503
+  htb: https://app.hackthebox.com/users/314859
+  site:
+  description: 
+  active: true
+
+- name: Federico Motta
+  gihub: https://github.com/TheJena
+  github-id: 13780636
+  htb: https://app.hackthebox.com/users/1683930
+  site: https://scholar.google.com/citations?user=pgXipekAAAAJ
+  description: PhD student at UNIMORE
+  active: true
+
