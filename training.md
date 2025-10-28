@@ -1,5 +1,5 @@
 ---
 layout: training
 title: Training
-permalink: /team/
+permalink: /training/
 ---
